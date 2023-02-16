@@ -1,0 +1,10 @@
+.img-github{
+    display: flex;
+    border-radius: 10px;
+    height: 70px;
+    width: 80px;
+}
+
+.img-github:hover{
+    cursor: pointer;
+}

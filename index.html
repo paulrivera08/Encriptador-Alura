@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ES">
+
+<html>               
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+        <title>Encriptador Alura</title>
+        <link rel="stylesheet" href="/css/body.css">
+        <link rel="stylesheet" href="/css/container/container.css">
+        <link rel="stylesheet" href="/css/container/container-2.css">
+        <link rel="stylesheet" href="/css/container/container-3.css">
+        <link rel="stylesheet" href="/css/container/ingresar-texto.css">
+        <link rel="stylesheet" href="/css/left-side/left-side.css">
+        <link rel="stylesheet" href="/css/left-side/lupa.css">
+        <link rel="stylesheet" href="/css/left-side/encriptar.css">
+        <link rel="stylesheet" href="/css/left-side/desencriptar.css">
+        <link rel="stylesheet" href="/css/right-side/right-side.css">
+        <link rel="stylesheet" href="/css/right-side/encriptado.css">
+        <link rel="stylesheet" href="/css/right-side/titulos.css">
+        <link rel="stylesheet" href="/css/right-side/copiar.css">
+        <link rel="stylesheet" href="/css/rodapie/rodapie.css">
+        <link rel="stylesheet" href="/css/rodapie/redes.css">
+        <link rel="stylesheet" href="/css/rodapie/linkedin.css">
+        <link rel="stylesheet" href="/css/rodapie/github.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="container-2">
+                <textarea class="ingresarTexto" onclick='this.value=""' cols="30" rows="10"> Ingrese el texto aqui</textarea>
+            </div>
+            <div class="container-3">
+                <div class="left-side">
+                    <img class="lupa" src="img/encriptacion.webp">
+                    <button id="encriptar" type="button">Encriptar</button>
+                    <button id="desencriptar" type="button">Desencriptar</button>
+                </div>
+                <div class="right-side">
+                    <textarea id="encriptado" cols="30" rows="10">Texto encriptado</textarea>
+                    <p id="title-1">Ningun mensaje fue encontrado</p>
+                    <p id="title-2">Ingrese el texto que desees encriptar o desencriptar</p>
+                    <button type="button" id="copiar">Copiar</button>
+                </div>
+            </div>
+            <div class="rodapie">
+                <ul class="redes">
+                    <li>
+                        <a class="linkedIn" href="https://www.linkedin.com/in/paul-alejandro-rivera-montoya"><img class="img-linkedin" src="/img/linkedIn.png" alt="logo de linkedIn"></a>
+                    </li>
+                    <li>
+                        <a class="github" href=""></a>
+                        <img class="img-github" src="/img/github.jpg" alt="logo de github">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script src="code.js"></script> 
+    </body>        
+</html>

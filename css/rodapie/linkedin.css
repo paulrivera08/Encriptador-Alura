@@ -1,0 +1,12 @@
+.img-linkedin{
+    display: flex;
+    border-radius: 10px;
+    height: 70px;
+    width: 70px;
+    margin: 30px;
+    margin-left: 10px;
+}
+
+.img-linkedin:hover{
+    cursor: pointer;
+}
